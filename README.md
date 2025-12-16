@@ -34,7 +34,7 @@
 
 ## Screenshots
 <img width="300" height="384" alt="Снимок экрана 2025-12-16 174430" src="https://github.com/user-attachments/assets/3f015bb6-def1-4829-b641-caae7c70edb1" />
-<img width="300" height="240" alt="Снимок экрана 2025-12-16 174523" src="https://github.com/user-attachments/assets/bbbd7ee6-0b10-4001-8652-279aa71be98f" />
+<img width="300" height="230" alt="Снимок экрана 2025-12-16 174523" src="https://github.com/user-attachments/assets/bbbd7ee6-0b10-4001-8652-279aa71be98f" />
 <img width="600" height="400" alt="Снимок экрана 2025-12-16 174608" src="https://github.com/user-attachments/assets/bb6cf49a-be83-4818-b969-a757277cdce6" />
 
 ## Project Structure
