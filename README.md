@@ -37,7 +37,6 @@
 <img width="436" height="441" alt="Снимок экрана 2025-12-16 174523" src="https://github.com/user-attachments/assets/bbbd7ee6-0b10-4001-8652-279aa71be98f" />
 <img width="600" height="400" alt="Снимок экрана 2025-12-16 174608" src="https://github.com/user-attachments/assets/bb6cf49a-be83-4818-b969-a757277cdce6" />
 
-## Files Structure
 ## Project Structure
 
 ```
