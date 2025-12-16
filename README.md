@@ -38,6 +38,9 @@
 <img width="600" height="400" alt="Снимок экрана 2025-12-16 174608" src="https://github.com/user-attachments/assets/bb6cf49a-be83-4818-b969-a757277cdce6" />
 
 ## Files Structure
+## Project Structure
+
+```
 SpaceWar/
 ├── index.html          # Main page (menu)
 ├── play.html           # Game page
@@ -61,3 +64,4 @@ SpaceWar/
     │   └── play.js     # Main game logic
     └── router/
         └── router.js   # Router (navigation)
+```
