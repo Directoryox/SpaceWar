@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difficulty-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin: 30px auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+#score {
+    display: block !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+#final {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#final .over {
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.record {
+    width: 230px;
+    margin: 50px auto 0 auto;
+}
+
+.record p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.record span, .record p {
+    color: white;
+}
+
+#final #reset {
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    margin: 100px auto;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.game-mode-info {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background: rgba(0,0,0,0.7);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.player, .bullet, .enemy {
+    position: absolute;
+}
+
+.playerBoom {
+    position: absolute;
+    animation: bling 2s 1;
+    animation-fill-mode: forwards;
+}
+
+.enemyBoom {
+    position: absolute;
+    animation: fadeout 0.8s 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes bling {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    40% { opacity: 1; }
+    60% { opacity: 0; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
